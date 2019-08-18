@@ -15,7 +15,7 @@
 
 def consolidate_cart(cart)
     hash = {}
-    :items.each_with_item({:item, grocery_item})
+    :items.each_with_item({:item)
 end
 
 def apply_coupons(cart, coupons)
