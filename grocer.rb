@@ -12,21 +12,8 @@ require pry
   #     {"BEETS" => {:price => 2.50, :clearance => false}},
   #     {"SOY MILK" => {:price => 4.50, :clearance => true}}
   #   ]
-  # end
-  # describe "#consolidate_cart" do
-  #   it "adds a count of one to each item when there are no duplicates" do
-  #     cart = [find_item('TEMPEH'), find_item('PEANUTBUTTER'), find_item('ALMONDS')]
-  #     result = consolidate_cart(cart)
-  #     result.each do |item, attributes|
-  #       expect(attributes.keys).to include(:count)
-  #       expect(attributes[:count]).to eq(1)
-  #     end
-  #   end
-   
-# bands.reduce({}) do |memo, pair|
-#   p memo # First block parameter
-#   p pair # Second block parameter
-#   memo # Return value for the block. It becomes the memo in the next go-round
+  
+
 def consolidate_cart(cart)
     hash = {}
     :items.reduce({}) do |:count, :price|
