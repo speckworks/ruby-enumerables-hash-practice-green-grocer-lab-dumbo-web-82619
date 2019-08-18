@@ -15,7 +15,7 @@
 
 def consolidate_cart(cart)
     hash = {}
-    Hash[:item]
+    
 end
 
 
