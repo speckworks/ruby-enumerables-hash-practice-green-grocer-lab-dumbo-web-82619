@@ -29,7 +29,7 @@ require pry
 #   memo # Return value for the block. It becomes the memo in the next go-round
 def consolidate_cart(cart)
     hash = {}
-    :items.reduce({:count}) do |:price, :clearance|
+    :items.reduce({}) do |:count, :price|
 end
 
 
