@@ -1,4 +1,3 @@
-require pry
   # # let(:items) do
   #   [
   #     {"AVOCADO" => {:price => 3.00, :clearance => true}},
