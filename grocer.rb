@@ -15,7 +15,7 @@
 
 def consolidate_cart(cart)
     hash = {}
-    :items.reduce({}) do |memo, pair| 
+    :items.reduce({})
 end
 
 
