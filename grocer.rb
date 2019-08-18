@@ -15,7 +15,7 @@
 
 def consolidate_cart(cart)
     hash = {}
-    :items.reduce({})
+    :items.each_with_item({:item, grocery_item})
 end
 
 
