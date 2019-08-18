@@ -16,7 +16,7 @@ require pry
 
 def consolidate_cart(cart)
     hash = {}
-    Hash[:item, find(items[])]
+    Hash[:item]
 end
 
 
