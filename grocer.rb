@@ -15,7 +15,7 @@
 
 def consolidate_cart(cart)
     new.cart = {}
-    :items.each_with_item({:item)
+    cart.each({:item)
 end
 
 def apply_coupons(cart, coupons)
