@@ -20,7 +20,7 @@ end
 
 
 def apply_coupons(cart, coupons)
-  if :item[:clearance => true] 
+  if :item[:clearance, true] 
 end
 
 def apply_clearance(cart)
