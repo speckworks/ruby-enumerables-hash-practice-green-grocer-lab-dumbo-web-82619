@@ -18,7 +18,6 @@ def consolidate_cart(cart)
     :items.each_with_item({:item, grocery_item})
 end
 
-
 def apply_coupons(cart, coupons)
   if :item[:clearance, true] 
 end
