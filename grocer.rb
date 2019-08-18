@@ -19,7 +19,7 @@ def consolidate_cart(cart)
 end
 
 def apply_coupons(cart, coupons)
-  if :item[:clearance, true] 
+  if :item[] 
 end
 
 def apply_clearance(cart)
