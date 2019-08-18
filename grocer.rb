@@ -20,7 +20,7 @@ end
 
 
 def apply_coupons(cart, coupons)
-  # 
+  if :item[]
 end
 
 def apply_clearance(cart)
