@@ -21,7 +21,7 @@ def apply_coupons(cart, coupons)
           cart["#{name} W/COUPON"][:count] += 1 
         else 
           binding.pry
-          cart["#{name} W/COUPON"] = {:price => coupon[:cost], 
+          cart["#{name} W/COUPON"] = {:price => coupon[:cost]/:num, 
           :clearance => cart[name][:clearance], :count => 1} 
         end 
       cart[name][:count] -= coupon[:num] 
