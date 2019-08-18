@@ -20,6 +20,9 @@ def consolidate_cart(cart)
       new_cart[item] || = attribute_hash
       new_cart[item][:count] ? new_cart[item][:count] += 1 :   
       new_cart[item][:count] = 1
+    end
+    end
+    end
 end
 
 def apply_coupons(cart, coupons)
