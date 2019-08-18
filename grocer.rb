@@ -25,14 +25,14 @@ def consolidate_cart(cart)
 new_cart
 end
 
-def apply_coupons(cart, coupons)
-  if :item[] 
-end
+# def apply_coupons(cart, coupons)
+#   if :item[] 
+# end
 
-def apply_clearance(cart)
-   if :item[:clearance, true] 
-end
+# def apply_clearance(cart)
+#   if :item[:clearance, true] 
+# end
 
-def checkout(cart, coupons)
-  # code here
-end
+# def checkout(cart, coupons)
+#   # code here
+# end
